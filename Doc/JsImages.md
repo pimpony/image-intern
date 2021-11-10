@@ -21,7 +21,7 @@ image
 	FROM nginx:stable-alpine as production-stage
 // Copy เฉพาะตัว Production Build จาก build-stage ไปไว้ใน Folder /usr/share/nginx/html
 	COPY --from=build-stage /app/dist /usr/share/nginx/html
-### เป็นการระบุ Port แต่เนื่อง nginx default ที่ 80 หากจะเปลี่ยนจะต้องทำ default.conf เพื่อระบุ แต่เนื่องโปรเจ็คตอนนี้  ไม่ได้ทำ File ดังกล่าว จึงต้องเข้าผ่าน 80 
+// เป็นการระบุ Port แต่เนื่อง nginx default ที่ 80 หากจะเปลี่ยนจะต้องทำ default.conf เพื่อระบุ แต่เนื่องโปรเจ็คตอนนี้  ไม่ได้ทำ File ดังกล่าว จึงต้องเข้าผ่าน 80 
 	EXPOSE 8080 
 // เป็นขั้นตอน Command คำสั่ง 
 	CMD ["nginx", "-g", "daemon off;"]
