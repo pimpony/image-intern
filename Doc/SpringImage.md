@@ -1,4 +1,4 @@
-# Spring Images
+# Spring Image
 
 ## First Step เขียน Dockerfile ซึ้งทำแบบ multi-stage เพื่อลดขนาดของ image 
 ```
@@ -25,18 +25,18 @@ image
 	ENTRYPOINT ["java","-jar","app.jar"]
 ```
 
-##ขั้นตอนการทำ images
+## ขั้นตอนการทำ images
 ```
 // build image
 	docker build -t xxpxiixn/springimages .
 ```
 
-##ขั้นตอนการ Push image ขึ้น
+## ขั้นตอนการ Push image ขึ้น
 ```
 // Push  a Docker container Image
 	docker push xxpxiixn/springimages
 ```
-##Link image
+## Link image
 ```
 https://hub.docker.com/r/xxpxiixn/springimages
 ```
