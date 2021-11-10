@@ -1,4 +1,4 @@
-# Js Images
+# Js Image
 
 ## First Step เขียน Dockerfile ซึ้งทำแบบ multi-stage เพื่อลดขนาดของ image 
 ```
@@ -28,7 +28,7 @@ image
 
 ```
 
-##ขั้นตอนการทำ images
+##ขั้นตอนการทำ image
 ```
 // build image
 	docker build -t xxpxiixn/jsimages
