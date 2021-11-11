@@ -1,6 +1,6 @@
 # Js Image
 
-## First Step เขียน Dockerfile ซึ้งทำแบบ multi-stage เพื่อลดขนาดของ image 
+## First Step เขียน Dockerfile 
 ```
 ##  build stage 
 // FROM คือ ตัว Run app ซึ้ง Project คือ vue.js framework based on nodejs จึงต้อง  pull node และเลือกใช้เป็น Version latest และเป็น  Alpine เพื่อตอบโจทย์การใช้ Container ซึ้งจะมีขนาดที่เล็ก
