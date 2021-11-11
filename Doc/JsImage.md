@@ -28,19 +28,19 @@ image
 
 ```
 
-##ขั้นตอนการทำ image
+## ขั้นตอนการทำ image
 ```
 // build image
 	docker build -t xxpxiixn/jsimages
 ```
 
-##ขั้นตอนการ Push image ขึ้น
+## ขั้นตอนการ Push image ขึ้น
 ```
 // Push  a Docker container Image
 	docker push xxpxiixn/jsimages 
 ```
 
-##Link image
+## Link image
 ```
 https://hub.docker.com/r/xxpxiixn/jsimages
 ```
